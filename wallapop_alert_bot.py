@@ -32,7 +32,7 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 SEARCHES = [
     {
         "name": "Nintendo Switch OLED",
-        "keywords": "nintendo switch oled",
+        "keywords": "consola switch oled",
         "title_contains": ["switch"],
         "title_excludes": ["funda", "soporte", "mando", "case", "protector", "cristal", "cable",
                             "adaptador", "base", "cargador", "auriculares", "guitarra", "volante",
@@ -59,7 +59,7 @@ SEARCHES = [
     },
     {
         "name": "Xbox Series X",
-        "keywords": "xbox series x",
+        "keywords": "consola xbox series x",
         "title_contains": ["series x"],
         "title_excludes": ["series s", "xbox 360", "xbox one",
                             "volante", "mando suelto", "auriculares", "cascos", "guitarra",
