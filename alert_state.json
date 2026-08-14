@@ -14,7 +14,8 @@
       "pj949gqxkk6e",
       "wzvgpl370rzl",
       "ejkmo9dppqzx",
-      "9jdwp5yged6k"
+      "9jdwp5yged6k",
+      "8j381x0q0lz9"
     ]
   },
   "PS5 Slim Disco": {
@@ -26,6 +27,31 @@
       "8j381xer9yz9",
       "p618w7vne7z5",
       "mzn3dvnkg7jn"
+    ]
+  },
+  "PS5 Slim Digital": {
+    "median": 459.0,
+    "median_updated_at": "2026-08-14T14:23:45.538511+00:00",
+    "seen_ids": [
+      "mzn3dvnkg7jn",
+      "4z48mg25ymjy",
+      "wzvgplyqqrzl"
+    ]
+  },
+  "Xbox Series X": {
+    "median": null,
+    "median_updated_at": null,
+    "seen_ids": [
+      "v6gpw1orem6e"
+    ]
+  },
+  "Steam Deck": {
+    "median": 462.5,
+    "median_updated_at": "2026-08-14T14:23:45.538511+00:00",
+    "seen_ids": [
+      "mzn3dvp8n0jn",
+      "ejkmo95l81zx",
+      "pzpk419dl9j3"
     ]
   }
 }
