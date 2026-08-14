@@ -114,6 +114,35 @@ SEARCHES = [
         "title_excludes": ["funda", "soporte", "cargador", "cable", "cristal", "teclado"],
         "min_price": 150,
     },
+    {
+        "name": "PS4 Pro",
+        "keywords": "consola ps4 pro",
+        "title_contains": ["ps4 pro"],
+        "title_excludes": ["volante", "mando suelto", "funda", "soporte", "cargador", "cable",
+                            "auriculares", "teclado", "monitor", "televisor", "proyector",
+                            "coleccionista", "ssd", "disco duro", "casco", "logitech",
+                            "steelseries", "nacon", "scuf", "victrix", "razer", "thrustmaster",
+                            "land rover", "discovery sport"],
+        "min_price": 100,
+    },
+    {
+        "name": "PS4 Slim",
+        "keywords": "consola ps4 slim",
+        "title_contains": ["ps4 slim"],
+        "title_excludes": ["pro", "volante", "mando suelto", "funda", "soporte", "cargador",
+                            "cable", "auriculares", "teclado", "monitor", "televisor",
+                            "proyector", "coleccionista", "ssd", "disco duro"],
+        "min_price": 60,
+    },
+    {
+        "name": "PS4 Fat",
+        "keywords": "consola ps4 fat",
+        "title_contains": ["ps4 fat", "ps4 original", "playstation 4 fat"],
+        "title_excludes": ["pro", "slim", "volante", "mando suelto", "funda", "soporte",
+                            "cargador", "cable", "auriculares", "teclado", "monitor",
+                            "televisor", "proyector", "coleccionista", "ssd", "disco duro"],
+        "min_price": 40,
+    },
 ]
 
 BUY_THRESHOLD_PCT = 0.20
