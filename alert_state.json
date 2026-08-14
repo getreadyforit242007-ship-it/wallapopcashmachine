@@ -53,5 +53,49 @@
       "ejkmo95l81zx",
       "pzpk419dl9j3"
     ]
+  },
+  "Xbox Series S": {
+    "median": 220.0,
+    "median_updated_at": "2026-08-14T15:18:24.221431+00:00",
+    "seen_ids": [
+      "qjwr0dxpyq6o",
+      "vjreg9gp3lzk",
+      "wzvgple78dzl",
+      "qjwr0dr7pg6o",
+      "36e50nx04q6d"
+    ]
+  },
+  "Meta Quest 3": {
+    "median": 357.5,
+    "median_updated_at": "2026-08-14T15:18:24.221431+00:00",
+    "seen_ids": [
+      "w67v2g17556x",
+      "mzn3dvkwn7jn",
+      "qjwr0d8mnw6o",
+      "w67v2gv95w6x"
+    ]
+  },
+  "GoPro Hero": {
+    "median": 227.47,
+    "median_updated_at": "2026-08-14T15:18:24.221431+00:00",
+    "seen_ids": []
+  },
+  "DJI Drone": {
+    "median": 269.94,
+    "median_updated_at": "2026-08-14T15:18:24.221431+00:00",
+    "seen_ids": [
+      "mzn3dv1wp2jn"
+    ]
+  },
+  "iPad Pro": {
+    "median": null,
+    "median_updated_at": null,
+    "seen_ids": [
+      "4z48mgwkmvjy",
+      "qjwr0dk3ew6o",
+      "4z48mg9nqljy",
+      "x6qqe9oey56y",
+      "pzpk41me54j3"
+    ]
   }
 }
