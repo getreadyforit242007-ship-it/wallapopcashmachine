@@ -1,0 +1,31 @@
+{
+  "Nintendo Switch OLED": {
+    "median": 210.0,
+    "median_updated_at": "2026-08-14T12:44:02.176873+00:00",
+    "seen_ids": [
+      "e65qo3nrem6o",
+      "pj949g2m0o6e",
+      "pzpk41o04lj3",
+      "nz08kvo3l76o",
+      "x6qqe98ndn6y",
+      "wzyrw70m0x65",
+      "8j381xldw8z9",
+      "v6gpw13v556e",
+      "pj949gqxkk6e",
+      "wzvgpl370rzl",
+      "ejkmo9dppqzx",
+      "9jdwp5yged6k"
+    ]
+  },
+  "PS5 Slim Disco": {
+    "median": 465.0,
+    "median_updated_at": "2026-08-14T12:44:02.176873+00:00",
+    "seen_ids": [
+      "8z88dgd1w1z3",
+      "pzpk41qx0kj3",
+      "8j381xer9yz9",
+      "p618w7vne7z5",
+      "mzn3dvnkg7jn"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+name: Wallapop Alert Bot
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # cada 5 minutos, 24/7, gratis en repos publicos
+  workflow_dispatch: {}      # permite lanzarlo manualmente desde la pestana Actions
+
+permissions:
+  contents: write            # necesario para hacer commit del estado actualizado
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run alert bot
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python wallapop_alert_bot.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "wallapop-bot"
+          git config user.email "actions@github.com"
+          git add alert_state.json
+          git diff --quiet --cached || git commit -m "update state [skip ci]"
+          git push
