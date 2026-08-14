@@ -125,8 +125,8 @@ def is_madrid(item):
     return "madrid" in city or "madrid" in region
 
 
-def compute_median(search_cfg, session):
-    print(f"[{search_cfg['name']}] recalculando mediana...")
+def sweep_items(search_cfg, session):
+    """Un intento de barrido completo. Devuelve la lista de items en bruto (puede estar vacia)."""
     search_id, lat, lon = wm.get_search_id(search_cfg["keywords"], wm.DEFAULT_LAT, wm.DEFAULT_LON, session)
 
     all_items = []
@@ -143,10 +143,25 @@ def compute_median(search_cfg, session):
         next_page = data.get("meta", {}).get("next_page")
         if not next_page:
             break
+    return all_items
+
+
+def compute_median(search_cfg, session):
+    print(f"[{search_cfg['name']}] recalculando mediana...")
+
+    all_items = []
+    for attempt in range(3):
+        if attempt > 0:
+            wait = 4 * attempt
+            print(f"[{search_cfg['name']}] reintento {attempt} tras {wait}s (search_id nuevo)")
+            time.sleep(wait)
+        all_items = sweep_items(search_cfg, session)
+        if len(all_items) >= 15:
+            break
 
     if len(all_items) < 15:
-        print(f"[{search_cfg['name']}] AVISO: solo {len(all_items)} items en bruto, "
-              f"posible rate-limit -- no se actualiza la mediana esta vez")
+        print(f"[{search_cfg['name']}] AVISO: solo {len(all_items)} items en bruto tras 3 intentos, "
+              f"posible bloqueo por termino de busqueda popular -- no se actualiza la mediana esta vez")
         return None
 
     filtered = wm.filter_by_title(all_items, search_cfg["title_contains"], search_cfg["title_excludes"])
