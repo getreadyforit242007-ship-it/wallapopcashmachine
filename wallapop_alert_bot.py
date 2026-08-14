@@ -79,6 +79,41 @@ SEARCHES = [
                             "edicion limitada", "edición limitada"],
         "min_price": 150,
     },
+    {
+        "name": "Xbox Series S",
+        "keywords": "consola xbox series s",
+        "title_contains": ["series s"],
+        "title_excludes": ["series x", "funda", "soporte", "cargador", "cable", "mando suelto"],
+        "min_price": 100,
+    },
+    {
+        "name": "Meta Quest 3",
+        "keywords": "meta quest 3",
+        "title_contains": ["quest"],
+        "title_excludes": ["funda", "soporte", "cargador", "cable", "correa"],
+        "min_price": 100,
+    },
+    {
+        "name": "GoPro Hero",
+        "keywords": "gopro hero 12",
+        "title_contains": ["gopro"],
+        "title_excludes": ["funda", "soporte", "cargador", "cable", "tripode", "trípode", "palo"],
+        "min_price": 80,
+    },
+    {
+        "name": "DJI Drone",
+        "keywords": "dji mini drone",
+        "title_contains": ["dji"],
+        "title_excludes": ["funda", "soporte", "cargador", "cable", "helice", "hélice"],
+        "min_price": 100,
+    },
+    {
+        "name": "iPad Pro",
+        "keywords": "ipad pro",
+        "title_contains": ["ipad"],
+        "title_excludes": ["funda", "soporte", "cargador", "cable", "cristal", "teclado"],
+        "min_price": 150,
+    },
 ]
 
 BUY_THRESHOLD_PCT = 0.20
