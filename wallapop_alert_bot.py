@@ -109,7 +109,7 @@ SEARCHES = [
     },
     {
         "name": "iPad Pro",
-        "keywords": "ipad pro",
+        "keywords": "tablet ipad pro",
         "title_contains": ["ipad"],
         "title_excludes": ["funda", "soporte", "cargador", "cable", "cristal", "teclado"],
         "min_price": 150,
