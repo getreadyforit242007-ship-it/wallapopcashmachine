@@ -249,12 +249,16 @@ def compute_median(search_cfg, session):
 
 
 def poll_new_listings(search_cfg, median, seen_ids, session):
+    """Comprueba anuncios que YA califican como chollo ahora mismo, no solo los
+    mas recientes -- pide directamente a Wallapop solo lo que esta por debajo
+    del umbral, asi se detectan tambien anuncios antiguos que llevaban tiempo
+    ahi sin que los hubieramos visto (backlog), no solo publicaciones nuevas."""
     search_id, lat, lon = wm.get_search_id(search_cfg["keywords"], wm.DEFAULT_LAT, wm.DEFAULT_LON, session)
 
     params = {
         "keywords": search_cfg["keywords"],
         "source": "search_box",
-        "order_by": "newest",
+        "order_by": "price_low_to_high",
         "search_id": search_id,
         "latitude": lat,
         "longitude": lon,
@@ -262,6 +266,9 @@ def poll_new_listings(search_cfg, median, seen_ids, session):
         "search_country": "ES",
         "min_sale_price": search_cfg["min_price"],
     }
+    if median:
+        params["max_sale_price"] = median * (1 - BUY_THRESHOLD_PCT)
+
     resp = session.get(f"{wm.API_BASE}/search/section", params=params, headers=wm.HEADERS, timeout=15)
     resp.raise_for_status()
     data = resp.json()
