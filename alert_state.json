@@ -1,7 +1,7 @@
 {
   "Nintendo Switch OLED": {
-    "median": null,
-    "median_updated_at": null,
+    "median": 210.0,
+    "median_updated_at": "2026-08-14T15:13:57.079887+00:00",
     "seen_ids": [
       "v6gpw1d0ml6e",
       "8j381x0q0lz9",
@@ -15,7 +15,8 @@
       "8j381xldw8z9",
       "v6gpw13v556e",
       "pj949gqxkk6e",
-      "wzvgpl370rzl"
+      "wzvgpl370rzl",
+      "ejkmo9dppqzx"
     ]
   },
   "PS5 Slim Disco": {
@@ -38,8 +39,8 @@
     ]
   },
   "Xbox Series X": {
-    "median": null,
-    "median_updated_at": null,
+    "median": 500.0,
+    "median_updated_at": "2026-08-14T15:13:57.079887+00:00",
     "seen_ids": [
       "v6gpw1orem6e"
     ]
