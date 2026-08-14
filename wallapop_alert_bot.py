@@ -33,15 +33,18 @@ SEARCHES = [
         "name": "Nintendo Switch OLED",
         "keywords": "nintendo switch oled",
         "title_contains": ["switch"],
-        "title_excludes": ["funda", "soporte", "mando", "case", "protector", "cristal", "cable", "adaptador", "base"],
-        "min_price": 100,
+        "title_excludes": ["funda", "soporte", "mando", "case", "protector", "cristal", "cable",
+                            "adaptador", "base", "cargador", "auriculares", "guitarra", "volante",
+                            "silla", "monitor", "pantalla"],
+        "min_price": 130,
     },
     {
         "name": "PS5 Slim Disco",
         "keywords": "ps5 slim disco",
         "title_contains": ["ps5", "playstation 5"],
         "title_excludes": ["ps4", "ps3", "xbox", "soporte", "funda", "mando", "digital",
-                            "unidad lectora", "ssd", "disco duro", "auriculares", "lente", "optic"],
+                            "unidad lectora", "ssd", "disco duro", "auriculares", "lente", "optic",
+                            "volante", "guitarra", "silla", "monitor", "pantalla", "pc gaming", "rtx"],
         "min_price": 150,
     },
     {
@@ -49,26 +52,35 @@ SEARCHES = [
         "keywords": "ps5 slim digital",
         "title_contains": ["ps5", "playstation 5"],
         "title_excludes": ["ps4", "ps3", "xbox", "soporte", "funda", "mando", "disco",
-                            "lector", "ssd", "disco duro", "auriculares"],
+                            "lector", "ssd", "disco duro", "auriculares", "volante", "guitarra",
+                            "silla", "monitor", "pantalla", "aniversario", "30 aniversario"],
         "min_price": 150,
     },
     {
         "name": "Xbox Series X",
         "keywords": "xbox series x",
-        "title_contains": ["xbox"],
-        "title_excludes": ["series s", "funda", "soporte", "mando suelto", "cargador", "cable"],
+        "title_contains": ["series x"],
+        "title_excludes": ["series s", "xbox 360", "xbox one",
+                            "volante", "mando suelto", "auriculares", "cascos", "guitarra",
+                            "coleccionista", "collector", "funda", "soporte", "cargador", "cable",
+                            "adaptador", "base de carga", "teclado", "raton", "ratón", "silla",
+                            "monitor", "pantalla", "tcl", "gigabyte", "rock band", "starfield",
+                            "metaphor", "indiana jones", "elden ring", "assassin", "crimson desert",
+                            "outrun", "scuf", "astro", "beoplay", "bang & olufsen", "thrustmaster",
+                            "logitech", "avatar"],
         "min_price": 150,
     },
     {
         "name": "Steam Deck",
         "keywords": "steam deck",
         "title_contains": ["steam deck"],
-        "title_excludes": ["funda", "soporte", "case", "dock", "cargador", "cable"],
+        "title_excludes": ["funda", "soporte", "case", "dock", "cargador", "cable",
+                            "edicion limitada", "edición limitada"],
         "min_price": 150,
     },
 ]
 
-BUY_THRESHOLD_PCT = 0.10
+BUY_THRESHOLD_PCT = 0.20
 MEDIAN_REFRESH_HOURS = 24
 MEDIAN_SWEEP_PAGES = 10
 MAX_SEEN_IDS = 3000
