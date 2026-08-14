@@ -17,6 +17,7 @@ Variables de entorno requeridas:
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -130,7 +131,9 @@ def compute_median(search_cfg, session):
 
     all_items = []
     next_page = None
-    for _ in range(MEDIAN_SWEEP_PAGES):
+    for page_num in range(MEDIAN_SWEEP_PAGES):
+        if page_num > 0:
+            time.sleep(1.2)  # evitar rate-limiting de Wallapop en IPs compartidas (GitHub Actions)
         data = wm.fetch_page(session, search_cfg["keywords"], search_id, lat, lon,
                               min_price=search_cfg["min_price"], next_page=next_page)
         items = data.get("data", {}).get("section", {}).get("items", [])
@@ -140,6 +143,11 @@ def compute_median(search_cfg, session):
         next_page = data.get("meta", {}).get("next_page")
         if not next_page:
             break
+
+    if len(all_items) < 15:
+        print(f"[{search_cfg['name']}] AVISO: solo {len(all_items)} items en bruto, "
+              f"posible rate-limit -- no se actualiza la mediana esta vez")
+        return None
 
     filtered = wm.filter_by_title(all_items, search_cfg["title_contains"], search_cfg["title_excludes"])
     madrid_items = [it for it in filtered if is_madrid(it)]
@@ -209,7 +217,10 @@ def main():
     session = requests.Session()
     now = datetime.now(timezone.utc)
 
-    for search_cfg in SEARCHES:
+    for i, search_cfg in enumerate(SEARCHES):
+        if i > 0:
+            time.sleep(1.5)  # espaciar categorias, reduce burst de peticiones
+
         name = search_cfg["name"]
         if name not in state:
             state[name] = {"median": None, "median_updated_at": None, "seen_ids": []}
@@ -225,6 +236,7 @@ def main():
             if median:
                 entry["median"] = median
                 entry["median_updated_at"] = now.isoformat()
+            time.sleep(1.5)
 
         try:
             poll_new_listings(search_cfg, entry["median"], entry["seen_ids"], session)
