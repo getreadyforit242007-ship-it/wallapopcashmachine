@@ -44,6 +44,28 @@ SEARCHES = [
                             "unidad lectora", "ssd", "disco duro", "auriculares", "lente", "optic"],
         "min_price": 150,
     },
+    {
+        "name": "PS5 Slim Digital",
+        "keywords": "ps5 slim digital",
+        "title_contains": ["ps5", "playstation 5"],
+        "title_excludes": ["ps4", "ps3", "xbox", "soporte", "funda", "mando", "disco",
+                            "lector", "ssd", "disco duro", "auriculares"],
+        "min_price": 150,
+    },
+    {
+        "name": "Xbox Series X",
+        "keywords": "xbox series x",
+        "title_contains": ["xbox"],
+        "title_excludes": ["series s", "funda", "soporte", "mando suelto", "cargador", "cable"],
+        "min_price": 150,
+    },
+    {
+        "name": "Steam Deck",
+        "keywords": "steam deck",
+        "title_contains": ["steam deck"],
+        "title_excludes": ["funda", "soporte", "case", "dock", "cargador", "cable"],
+        "min_price": 150,
+    },
 ]
 
 BUY_THRESHOLD_PCT = 0.10
