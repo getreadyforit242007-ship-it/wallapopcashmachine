@@ -89,9 +89,17 @@ SEARCHES = [
     {
         "name": "Meta Quest 3",
         "keywords": "meta quest 3",
-        "title_contains": ["quest"],
+        "title_contains": ["quest 3"],
+        "title_excludes": ["funda", "soporte", "cargador", "cable", "correa",
+                            "quest 3s", "quest3s", "quest 2", "oculus quest 2"],
+        "min_price": 150,
+    },
+    {
+        "name": "Meta Quest 3S",
+        "keywords": "meta quest 3s",
+        "title_contains": ["quest 3s"],
         "title_excludes": ["funda", "soporte", "cargador", "cable", "correa"],
-        "min_price": 100,
+        "min_price": 80,
     },
     {
         "name": "GoPro Hero",
