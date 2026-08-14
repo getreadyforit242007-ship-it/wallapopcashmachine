@@ -16,7 +16,10 @@
       "v6gpw13v556e",
       "pj949gqxkk6e",
       "wzvgpl370rzl",
-      "ejkmo9dppqzx"
+      "ejkmo9dppqzx",
+      "w67v902vr96x",
+      "8z88d1de01z3",
+      "pj94exolek6e"
     ]
   },
   "PS5 Slim Disco": {
@@ -27,7 +30,10 @@
       "8z88dgd1w1z3",
       "pzpk41qx0kj3",
       "8j381xer9yz9",
-      "pzpk4ry04kj3"
+      "pzpk4ry04kj3",
+      "8z88ll448oz3",
+      "pj942v8rnv6e",
+      "pzpkewv34kj3"
     ]
   },
   "PS5 Slim Digital": {
@@ -36,7 +42,8 @@
     "seen_ids": [
       "mzn3dvnkg7jn",
       "4z48mg25ymjy",
-      "wzvgplyqqrzl"
+      "wzvgplyqqrzl",
+      "qjw4qqnl8ezo"
     ]
   },
   "Xbox Series X": {
@@ -52,7 +59,8 @@
     "seen_ids": [
       "mzn3dvp8n0jn",
       "ejkmo95l81zx",
-      "pzpk419dl9j3"
+      "pzpk419dl9j3",
+      "pj94npyqxo6e"
     ]
   },
   "Xbox Series S": {
@@ -63,12 +71,13 @@
       "vjreg9gp3lzk",
       "wzvgple78dzl",
       "qjwr0dr7pg6o",
-      "36e50nx04q6d"
+      "36e50nx04q6d",
+      "qzmmpwy8y1zv"
     ]
   },
   "Meta Quest 3": {
-    "median": null,
-    "median_updated_at": null,
+    "median": 450.0,
+    "median_updated_at": "2026-08-14T18:26:12.161349+00:00",
     "seen_ids": [
       "w67v2g17556x",
       "mzn3dvkwn7jn",
@@ -81,13 +90,27 @@
   "GoPro Hero": {
     "median": 227.47,
     "median_updated_at": "2026-08-14T15:18:24.221431+00:00",
-    "seen_ids": []
+    "seen_ids": [
+      "wzyrqdl1ke65",
+      "vjredvv0kwzk",
+      "mzn33wd2v0jn",
+      "36e1ldm8lnjd",
+      "w67v3p0xdw6x",
+      "wzy42lqmo5z5",
+      "3zlmxk2ddnjx"
+    ]
   },
   "DJI Drone": {
     "median": 269.94,
     "median_updated_at": "2026-08-14T15:18:24.221431+00:00",
     "seen_ids": [
-      "mzn3dv1wp2jn"
+      "mzn3dv1wp2jn",
+      "v6gpqneyll6e",
+      "3zlm394l24jx",
+      "wzv4gxqm2dzl",
+      "nz08mvlm1e6o",
+      "qzmmxmodggzv",
+      "nzxenrnl7p62"
     ]
   },
   "iPad Pro": {
@@ -98,14 +121,19 @@
       "qjwr0dk3ew6o",
       "4z48mg9nqljy",
       "x6qqe9oey56y",
-      "pzpk41me54j3"
+      "pzpk41me54j3",
+      "mzn3xn8rp2jn",
+      "w67vko8ee96x"
     ]
   },
   "PS4 Pro": {
     "median": 161.97,
     "median_updated_at": "2026-08-14T16:00:32.380593+00:00",
     "seen_ids": [
-      "0j28xr5m9djy"
+      "0j28xr5m9djy",
+      "pzpkrr7dllj3",
+      "qjwred8y0e6o",
+      "pzpkod09o5j3"
     ]
   },
   "PS4 Slim": {
@@ -113,7 +141,11 @@
     "median_updated_at": "2026-08-14T16:00:32.380593+00:00",
     "seen_ids": [
       "pzpk41nookj3",
-      "pj949go5d06e"
+      "pj949go5d06e",
+      "9jdwm4x9596k",
+      "v6gp543g9m6e",
+      "x6qqgknw9y6y",
+      "8z883qw8d1z3"
     ]
   },
   "PS4 Fat": {
@@ -121,6 +153,13 @@
     "median_updated_at": "2026-08-14T16:00:32.380593+00:00",
     "seen_ids": [
       "wzyrw70dv565"
+    ]
+  },
+  "Meta Quest 3S": {
+    "median": 270.0,
+    "median_updated_at": "2026-08-14T18:26:12.161349+00:00",
+    "seen_ids": [
+      "wzyrp3dyox65"
     ]
   }
 }
