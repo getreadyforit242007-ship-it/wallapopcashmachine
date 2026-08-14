@@ -46,7 +46,7 @@ SEARCHES = [
     },
 ]
 
-BUY_THRESHOLD_PCT = 0.25
+BUY_THRESHOLD_PCT = 0.10
 MEDIAN_REFRESH_HOURS = 24
 MEDIAN_SWEEP_PAGES = 10
 MAX_SEEN_IDS = 3000
@@ -60,7 +60,11 @@ def send_telegram(text):
         return
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     try:
-        r = requests.post(url, data={"chat_id": TELEGRAM_CHAT_ID, "text": text}, timeout=15)
+        r = requests.post(url, data={
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": text,
+            "disable_web_page_preview": False,
+        }, timeout=15)
         if r.status_code != 200:
             print(f"[telegram] error {r.status_code}: {r.text}")
     except requests.RequestException as e:
@@ -153,8 +157,8 @@ def poll_new_listings(search_cfg, median, seen_ids, session):
                 f"CHOLLO - {search_cfg['name']}\n\n"
                 f"{item['title']}\n"
                 f"Precio: {price:.0f} EUR ({pct_below}% por debajo de la mediana de {median:.0f} EUR)\n"
-                f"Ciudad: {city}\n"
-                f"{url}"
+                f"Ciudad: {city}\n\n"
+                f"Ver anuncio: {url}"
             )
             print(f"  -> ALERTA: {item['title'][:50]} a {price} EUR")
             send_telegram(text)
