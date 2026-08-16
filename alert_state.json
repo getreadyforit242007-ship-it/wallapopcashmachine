@@ -1,7 +1,7 @@
 {
   "Nintendo Switch OLED": {
     "median": 210.0,
-    "median_updated_at": "2026-08-15T15:32:45.858192+00:00",
+    "median_updated_at": "2026-08-16T15:40:23.977225+00:00",
     "seen_ids": [
       "v6gpw1d0ml6e",
       "8j381x0q0lz9",
@@ -52,7 +52,7 @@
   },
   "Xbox Series X": {
     "median": 500.0,
-    "median_updated_at": "2026-08-15T15:32:45.858192+00:00",
+    "median_updated_at": "2026-08-16T15:40:23.977225+00:00",
     "seen_ids": [
       "v6gpw1orem6e"
     ]
@@ -68,8 +68,8 @@
     ]
   },
   "Xbox Series S": {
-    "median": 230.0,
-    "median_updated_at": "2026-08-15T15:32:45.858192+00:00",
+    "median": 235.0,
+    "median_updated_at": "2026-08-16T15:40:23.977225+00:00",
     "seen_ids": [
       "qjwr0dxpyq6o",
       "vjreg9gp3lzk",
@@ -92,8 +92,8 @@
     ]
   },
   "GoPro Hero": {
-    "median": 210.0,
-    "median_updated_at": "2026-08-15T15:32:45.858192+00:00",
+    "median": 209.97,
+    "median_updated_at": "2026-08-16T15:40:23.977225+00:00",
     "seen_ids": [
       "wzyrqdl1ke65",
       "vjredvv0kwzk",
@@ -107,7 +107,7 @@
   },
   "DJI Drone": {
     "median": 270.0,
-    "median_updated_at": "2026-08-15T15:32:45.858192+00:00",
+    "median_updated_at": "2026-08-16T15:40:23.977225+00:00",
     "seen_ids": [
       "mzn3dv1wp2jn",
       "v6gpqneyll6e",
@@ -121,8 +121,8 @@
     ]
   },
   "iPad Pro": {
-    "median": 450.0,
-    "median_updated_at": "2026-08-15T15:32:45.858192+00:00",
+    "median": 474.5,
+    "median_updated_at": "2026-08-16T15:40:23.977225+00:00",
     "seen_ids": [
       "4z48mgwkmvjy",
       "qjwr0dk3ew6o",
