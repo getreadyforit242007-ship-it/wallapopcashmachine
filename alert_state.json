@@ -35,7 +35,7 @@
   },
   "PS5 Slim Disco": {
     "median": 480.0,
-    "median_updated_at": "2026-08-20T15:46:38.088380+00:00",
+    "median_updated_at": "2026-08-21T15:53:20.511072+00:00",
     "seen_ids": [
       "mzn3dvnkg7jn",
       "8z88dgd1w1z3",
@@ -50,8 +50,8 @@
     ]
   },
   "PS5 Slim Digital": {
-    "median": 450.0,
-    "median_updated_at": "2026-08-20T15:46:38.088380+00:00",
+    "median": 464.5,
+    "median_updated_at": "2026-08-21T15:53:20.511072+00:00",
     "seen_ids": [
       "mzn3dvnkg7jn",
       "4z48mg25ymjy",
@@ -68,8 +68,8 @@
     ]
   },
   "Steam Deck": {
-    "median": 499.5,
-    "median_updated_at": "2026-08-20T15:46:38.088380+00:00",
+    "median": 489.0,
+    "median_updated_at": "2026-08-21T15:53:20.511072+00:00",
     "seen_ids": [
       "mzn3dvp8n0jn",
       "ejkmo95l81zx",
