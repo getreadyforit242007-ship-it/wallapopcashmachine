@@ -1,7 +1,7 @@
 {
   "Nintendo Switch OLED": {
-    "median": 210.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median": 209.95,
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "v6gpw1d0ml6e",
       "8j381x0q0lz9",
@@ -46,7 +46,7 @@
   },
   "PS5 Slim Disco": {
     "median": 480.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "mzn3dvnkg7jn",
       "8z88dgd1w1z3",
@@ -61,8 +61,8 @@
     ]
   },
   "PS5 Slim Digital": {
-    "median": 450.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median": 462.5,
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "mzn3dvnkg7jn",
       "4z48mg25ymjy",
@@ -73,14 +73,14 @@
   },
   "Xbox Series X": {
     "median": 500.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "v6gpw1orem6e"
     ]
   },
   "Steam Deck": {
-    "median": 504.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median": 519.0,
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "mzn3dvp8n0jn",
       "ejkmo95l81zx",
@@ -89,8 +89,8 @@
     ]
   },
   "Xbox Series S": {
-    "median": 240.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median": 244.0,
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "qjwr0dxpyq6o",
       "vjreg9gp3lzk",
@@ -119,7 +119,7 @@
   },
   "GoPro Hero": {
     "median": 188.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "wzyrqdl1ke65",
       "vjredvv0kwzk",
@@ -135,8 +135,8 @@
     ]
   },
   "DJI Drone": {
-    "median": 285.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median": 327.5,
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "mzn3dv1wp2jn",
       "v6gpqneyll6e",
@@ -153,8 +153,8 @@
     ]
   },
   "iPad Pro": {
-    "median": 410.0,
-    "median_updated_at": "2026-08-24T16:52:18.027767+00:00",
+    "median": 380.5,
+    "median_updated_at": "2026-08-25T17:01:35.409636+00:00",
     "seen_ids": [
       "4z48mgwkmvjy",
       "qjwr0dk3ew6o",
