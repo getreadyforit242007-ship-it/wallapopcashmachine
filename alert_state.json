@@ -168,8 +168,8 @@
     ]
   },
   "PS4 Pro": {
-    "median": 160.0,
-    "median_updated_at": "2026-08-24T17:52:09.591884+00:00",
+    "median": 170.0,
+    "median_updated_at": "2026-08-25T18:02:02.001646+00:00",
     "seen_ids": [
       "0j28xr5m9djy",
       "pzpkrr7dllj3",
@@ -182,7 +182,7 @@
   },
   "PS4 Slim": {
     "median": 110.0,
-    "median_updated_at": "2026-08-24T17:52:09.591884+00:00",
+    "median_updated_at": "2026-08-25T18:02:02.001646+00:00",
     "seen_ids": [
       "pzpk41nookj3",
       "pj949go5d06e",
@@ -196,8 +196,8 @@
     ]
   },
   "PS4 Fat": {
-    "median": 110.0,
-    "median_updated_at": "2026-08-24T17:52:09.591884+00:00",
+    "median": 105.0,
+    "median_updated_at": "2026-08-25T18:02:02.001646+00:00",
     "seen_ids": [
       "wzyrw70dv565",
       "mzn3kogdkgjn"
