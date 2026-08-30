@@ -1,7 +1,7 @@
 {
   "Nintendo Switch OLED": {
-    "median": 215.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 218.95,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "v6gpw1d0ml6e",
       "8j381x0q0lz9",
@@ -56,8 +56,8 @@
     ]
   },
   "PS5 Slim Disco": {
-    "median": 481.98,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 500.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "mzn3dvnkg7jn",
       "8z88dgd1w1z3",
@@ -73,8 +73,8 @@
     ]
   },
   "PS5 Slim Digital": {
-    "median": 479.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 479.99,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "mzn3dvnkg7jn",
       "4z48mg25ymjy",
@@ -86,15 +86,15 @@
     ]
   },
   "Xbox Series X": {
-    "median": 520.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 500.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "v6gpw1orem6e"
     ]
   },
   "Steam Deck": {
-    "median": 460.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 450.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "mzn3dvp8n0jn",
       "ejkmo95l81zx",
@@ -106,7 +106,7 @@
   },
   "Xbox Series S": {
     "median": 250.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "qjwr0dxpyq6o",
       "vjreg9gp3lzk",
@@ -135,8 +135,8 @@
     ]
   },
   "GoPro Hero": {
-    "median": 213.5,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 232.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "wzyrqdl1ke65",
       "vjredvv0kwzk",
@@ -154,8 +154,8 @@
     ]
   },
   "DJI Drone": {
-    "median": 362.5,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 370.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "mzn3dv1wp2jn",
       "v6gpqneyll6e",
@@ -173,8 +173,8 @@
     ]
   },
   "iPad Pro": {
-    "median": 432.5,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 390.5,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "4z48mgwkmvjy",
       "qjwr0dk3ew6o",
@@ -188,8 +188,8 @@
     ]
   },
   "PS4 Pro": {
-    "median": 160.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 170.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "0j28xr5m9djy",
       "pzpkrr7dllj3",
@@ -201,8 +201,8 @@
     ]
   },
   "PS4 Slim": {
-    "median": 110.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 115.0,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "pzpk41nookj3",
       "pj949go5d06e",
@@ -216,8 +216,8 @@
     ]
   },
   "PS4 Fat": {
-    "median": 110.0,
-    "median_updated_at": "2026-08-29T00:45:41.067539+00:00",
+    "median": 119.9,
+    "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
       "wzyrw70dv565",
       "mzn3kogdkgjn"
