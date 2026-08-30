@@ -89,7 +89,8 @@
     "median": 500.0,
     "median_updated_at": "2026-08-30T04:58:57.416346+00:00",
     "seen_ids": [
-      "v6gpw1orem6e"
+      "v6gpw1orem6e",
+      "4z48m5eqvvjy"
     ]
   },
   "Steam Deck": {
@@ -123,8 +124,8 @@
     ]
   },
   "Meta Quest 3": {
-    "median": 420.0,
-    "median_updated_at": "2026-08-29T07:27:11.219377+00:00",
+    "median": 425.0,
+    "median_updated_at": "2026-08-30T10:24:19.236480+00:00",
     "seen_ids": [
       "w67v2g17556x",
       "mzn3dvkwn7jn",
@@ -225,7 +226,7 @@
   },
   "Meta Quest 3S": {
     "median": 280.0,
-    "median_updated_at": "2026-08-29T07:27:11.219377+00:00",
+    "median_updated_at": "2026-08-30T10:24:19.236480+00:00",
     "seen_ids": [
       "wzyrp3dyox65",
       "3zlm3772vpjx",
