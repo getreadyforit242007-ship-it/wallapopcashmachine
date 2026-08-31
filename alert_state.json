@@ -125,8 +125,8 @@
     ]
   },
   "Meta Quest 3": {
-    "median": 425.0,
-    "median_updated_at": "2026-08-30T10:24:19.236480+00:00",
+    "median": 420.0,
+    "median_updated_at": "2026-08-31T15:23:13.153148+00:00",
     "seen_ids": [
       "w67v2g17556x",
       "mzn3dvkwn7jn",
@@ -228,12 +228,13 @@
   },
   "Meta Quest 3S": {
     "median": 280.0,
-    "median_updated_at": "2026-08-30T10:24:19.236480+00:00",
+    "median_updated_at": "2026-08-31T15:23:13.153148+00:00",
     "seen_ids": [
       "wzyrp3dyox65",
       "3zlm3772vpjx",
       "x6qqe8gyyq6y",
-      "p618w2218dz5"
+      "p618w2218dz5",
+      "3zlm3lmgx4jx"
     ]
   }
 }
