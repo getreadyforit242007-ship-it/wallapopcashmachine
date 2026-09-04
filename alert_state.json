@@ -67,7 +67,9 @@
       "0j28v97mgrjy",
       "8z887qgvvrz3",
       "p618gvoxe5z5",
-      "vjrewke8g8zk"
+      "vjrewke8g8zk",
+      "ejkmyxm7m9zx",
+      "ejkmyxm7k9zx"
     ]
   },
   "PS5 Slim Disco": {
@@ -142,8 +144,8 @@
     ]
   },
   "Meta Quest 3": {
-    "median": 419.0,
-    "median_updated_at": "2026-09-03T22:17:09.596127+00:00",
+    "median": 409.5,
+    "median_updated_at": "2026-09-04T23:13:11.653384+00:00",
     "seen_ids": [
       "w67v2g17556x",
       "mzn3dvkwn7jn",
@@ -252,7 +254,7 @@
   },
   "Meta Quest 3S": {
     "median": 280.0,
-    "median_updated_at": "2026-09-03T22:17:09.596127+00:00",
+    "median_updated_at": "2026-09-04T23:13:11.653384+00:00",
     "seen_ids": [
       "wzyrp3dyox65",
       "3zlm3772vpjx",
